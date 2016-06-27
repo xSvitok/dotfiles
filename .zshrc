@@ -87,6 +87,7 @@ source $ZSH/oh-my-zsh.sh
 alias cdg='cd "$(git rev-parse --show-toplevel)"'
 alias vim='nvim'
 alias e='vim'
-
+export VISUAL=nvim
+export EDITOR="$VISUAL"
 export NVM_DIR="/Users/mobiledev/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
