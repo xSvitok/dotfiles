@@ -87,6 +87,8 @@ source $ZSH/oh-my-zsh.sh
 alias cdg='cd "$(git rev-parse --show-toplevel)"'
 alias vim='nvim'
 alias e='vim'
+alias gs='git status'
+
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 export NVM_DIR="/Users/mobiledev/.nvm"
