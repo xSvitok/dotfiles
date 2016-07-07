@@ -74,6 +74,8 @@ source $ZSH/oh-my-zsh.sh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 #functions
+
+#list files after changing directories
 function cs () {
 	cd "$@" && ls
 }
