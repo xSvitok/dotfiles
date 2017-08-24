@@ -12,3 +12,6 @@ set background=dark
 " line numbers
 set number
 
+" vim function remapping
+:imap jk <Esc>
+
